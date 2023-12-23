@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+/* img{
+    position: relative;
+    margin: 40px 30px 50px 100px;
+    height: 40px;
+    border-radius: 5px;
+} */
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rethink Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("images.jpeg");
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 26px;
+    color: white;
+
+}
+
+.active {
+    background-color: brown;
+}
+
+.active1 {
+    background-color: #04AA6D;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+    padding: 2px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+em {
+    color: coral;
+}
+
+p {
+    padding: 3px;
+}
+
+.div {
+    background-color: lightgrey;
+    width: 330px;
+    border: 15px solid burlywood;
+    padding: 50px;
+    margin: 30px;
+}
+
+p {
+    background-color: b burlywood;
+    width: 330px;
+    border: 15px solid salmon;
+    padding: 50px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container {
+    display: flex;
+    /* background-color: darkcyan; */
+}
+
+.flex-item {
+    background-color: coral;
+    margin: 80px;
+    padding: 30px;
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+
+/* .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    /* text-align: center; 
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+} */
+#btn{
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 35px;;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 12px;
+}
+.facebook {background-color: #2196F3;} /* Blue */
+.facebook:hover {background: #0b7dda;}
+
+.instagram {background-color: #f44336;} /* Red */ 
+.instagram:hover {background: #da190b;}
+
+.snapchat{background-color: hsl(36, 78%, 50%);} /* Orange */
+.snapchat:hover {background: #e68a00;}
+
+a{
+    text-decoration: none;
+    color: white;
+}
